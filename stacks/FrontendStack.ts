@@ -24,7 +24,6 @@ export function FrontendStack({ stack, app }: StackContext) {
     },
   })
 
-  console.log('site, site.url :>> ', site, site.url)
   // Show the url in the output
   stack.addOutputs({
     SiteUrl: site.url,
